@@ -42,7 +42,7 @@ If this repository or our survey paper is beneficial for your work, please cite:
 ### Distinctive Features of Our Work
 Our study on causal inference in recommender systems is distinguished by the following aspects:
 
-* **Theoretically coherent classification framework from a causal perspective.** We adopts a more nuanced and theory-driven classification of causal recommender systems, categorizing algorithms into PO-based, SCM-based, and general counterfactuals-based. This taxonomy offers a more structured and holistic understanding of causal theories, beneficial especially for newcomers in causal inference.
+* **Theoretically coherent classification framework from a causal perspective.** We adopts a more nuanced and theory-driven classification of causal recommender systems, categorizing algorithms into PO-based (Potential Outcome), SCM-based (Structural Causal Model), and general counterfactuals-based. This taxonomy offers a more structured and holistic understanding of causal theories, beneficial especially for newcomers in causal inference.
 * **Evolution of Causal Methods in Recommender Systems.** We trace the developmental trajectory of the integration between prevalent causal inference theories and recommender systems.
 * **Up-to-Date Collection and Review.** Our survey encompasses a comprehensive collection of recent works, as illustrated below.
 

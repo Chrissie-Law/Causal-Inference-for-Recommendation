@@ -12,7 +12,7 @@ A comprehensive repository featuring research works on causal inference for reco
 [![GitHub forks][fork-img]][fork-url]
 
 <div  align="center">    
-    <img src="./pic/classification.png" width=100% />
+    <img src="./pic/figure2.jpg" width=100% />
 </div>
 
 

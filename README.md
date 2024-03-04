@@ -18,11 +18,17 @@ A comprehensive repository featuring research works on causal inference for reco
 
 If this repository or our survey paper is beneficial for your work, please cite: 
 ```
-@article{luo2023ci4rs,
-  title={A Survey on Causal Inference for Recommendation},
-  author={Luo, Huishi and Zhuang, Fuzhen and Xie, Ruobing and Zhu, Hengshu and Wang, Deqing},
-  journal={arXiv preprint arXiv:2303.11666},
-  year={2023}
+@article{luo2024ci4rs,
+  title = {A survey on causal inference for recommendation},
+  journal = {The Innovation},
+  volume = {5},
+  number = {2},
+  pages = {100590},
+  year = {2024},
+  issn = {2666-6758},
+  doi = {https://doi.org/10.1016/j.xinn.2024.100590},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666675824000286},
+  author = {Luo, Huishi and Zhuang, Fuzhen and Xie, Ruobing and Zhu, Hengshu and Wang, Deqing and An, Zhulin and Xu, Yongjun}
 }
 ```
 

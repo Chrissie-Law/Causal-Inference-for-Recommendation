@@ -27,7 +27,7 @@ If this repository or our survey paper is beneficial for your work, please cite:
   year = {2024},
   issn = {2666-6758},
   doi = {https://doi.org/10.1016/j.xinn.2024.100590},
-  url = {https://www.sciencedirect.com/science/article/pii/S2666675824000286},
+  url = {https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00028-6},
   author = {Luo, Huishi and Zhuang, Fuzhen and Xie, Ruobing and Zhu, Hengshu and Wang, Deqing and An, Zhulin and Xu, Yongjun}
 }
 ```

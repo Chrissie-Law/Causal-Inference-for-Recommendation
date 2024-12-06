@@ -52,14 +52,14 @@ The comprehensive taxonomy is illustrated in the figure below. In addition, we h
 This repository is actively updated with the latest research papers up to early 2024. Updates will continue with new publications on causal inference for recommendation systems. Stay tuned!
 
 ## Bookmarks <span id="bookmarks"></span>
-- [Survey Papers](##survey-papers-)
-- [PO-based Methods](##po-)
-  - [Propensity score strategy](###propensity-)
-  - [Causal effect strategy](###causal-effect-)
-- [SCM-based Methods](##scm-)
-- [General Counterfactuals-based Methods](##counterfactuals-)
+- [Survey Papers](#survey-papers)
+- [PO-based Methods](#po-based-methods)
+  - [Propensity Score Strategy](#propensity-score-strategy)
+  - [Causal Effect Strategy](#causal-effect-strategy)
+- [SCM-based Methods](#scm-based-methods)
+- [General Counterfactuals-based Methods](#general-counterfactuals-based-methods)
 
-## Survey Papers <span id="survey-papers-"></span>
+## Survey Papers
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2023  | **A Survey on Causal Inference for Recommendation (Ours)**   |  arXiv    |                   [Link](https://arxiv.org/pdf/2303.11666.pdf)                    | [Link](https://github.com/Chrissie-Law/Causal-Inference-for-Recommendation)     |
@@ -75,26 +75,25 @@ Our study on causal inference in recommender systems is distinguished by the fol
 * **Evolution of Causal Methods in Recommender Systems.** We trace the developmental trajectory of the integration between prevalent causal inference theories and recommender systems.
 * **Up-to-Date Collection and Review.** Our survey encompasses a comprehensive collection of recent works, as illustrated below.
 
+
 <div align="center">
-    <figure>
-        <img src="./pic/paper_year_cate_rev.png" width="80%" alt="Distribution of publications on causal recommendations by year and framework">
-        <figcaption>Figure 2: Distribution of publications on causal recommendations by year and framework, focusing exclusively on specific industrial algorithms and excluding fundamental theory discussions.</figcaption>
-    </figure>
+    <img src="./pic/paper_year_cate_rev.png" width="80%" alt="Distribution of publications on causal recommendations by year and framework">
+    <p><strong>Figure 2:</strong> Distribution of publications on causal recommendations by year and framework, <br>focusing exclusively on specific industrial algorithms and excluding fundamental theory discussions.</p>
 </div>
+
 
 
 [Back](#bookmarks-)
 
-## PO-based Methods <span id="po-"></span>
+## PO-based Methods
 
-### Propensity score strategy <span id="propensity-"></span>
+### Propensity score strategy
 
 <div align="center">
-    <figure>
-        <img src="./pic/figure4.jpg" width="80%" alt="Evolutionary Timeline of Propensity Score Strategies in Recommendations">
-        <figcaption>Figure 3: Evolutionary Timeline of Propensity Score Strategies in Recommendations.</figcaption>
-    </figure>
+    <img src="./pic/figure4.jpg" width="80%" alt="Evolutionary Timeline of Propensity Score Strategies in Recommendations">
+    <p><strong>Figure 3:</strong> Evolutionary Timeline of Propensity Score Strategies in Recommendations.</p>
 </div>
+
 
 
 <table>
@@ -129,7 +128,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
       <td>SERec</td>
       <td>Propensity score</td>
       <td>Matrix factorization</td>
-      <td>Social recommendation</td>
+      <td>Social Rec</td>
       <td>2018</td>
       <td>Collaborative Filtering with Social Exposure: A Modular Approach to Social Recommendation</td>
       <td>AAAI</td>
@@ -204,7 +203,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
         <td>-</td>
       </tr>
       <tr>
-        <td>PieceNCIS, PointNCIS.</td>
+        <td>PieceNCIS, PointNCIS</td>
         <td>CIPS, SNIPS</td>
         <td>-</td>
         <td>Offline A/B testing</td>
@@ -295,7 +294,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
         <td>RIPS</td>
         <td>RIPS</td>
         <td>(model-agnostic)</td>
-        <td>Slate recommendation</td>
+        <td>Slate Rec</td>
         <td>2020</td>
         <td>Counterfactual Evaluation of Slate Recommendations with Sequential Reward Interactions</td>
         <td>KDD</td>
@@ -348,7 +347,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
       </tr>
       <tr>
         <td>RD&BRD</td>
-        <td>IPS/DR/AutoDebias</td>
+        <td>IPS /DR /AutoDebias</td>
         <td>Matrix factorization</td>
         <td>Unobserved confoundeing bias</td>
         <td>2022</td>
@@ -450,7 +449,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
         <td>Cascade-DR</td>
         <td>Cascade-DR</td>
         <td>Matrix factorization</td>
-        <td>High variance of RIPS\cite{McInerney2020}</td>
+        <td>High variance of RIPS</td>
         <td>2022</td>
         <td>Doubly Robust Off-Policy Evaluation for Ranking Policies under the Cascade Behavior Model</td>
         <td>WSDM</td>
@@ -517,7 +516,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
 
 [Back](#bookmarks-)
 
-### Causal effect strategy <span id="causal-effect-"></span>
+### Causal effect strategy
 
 <table>
   <thead>
@@ -537,7 +536,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
   <tbody>
     <tr>
       <td rowspan="5">Causal Effect for Uplift</td>
-      <td>ULRMF,ULBPR</td>
+      <td>ULRMF, ULBPR</td>
       <td>IPS, SNIPS, ATE</td>
       <td>MF</td>
       <td rowspan="5">Uplift</td>
@@ -660,13 +659,11 @@ Our study on causal inference in recommender systems is distinguished by the fol
 
 [Back](#bookmarks-)
 
-## SCM-based Methods <span id="scm-"></span>
+## SCM-based Methods
 
 <div align="center">
-    <figure>
-        <img src="./pic/figure8.jpg" width="80%" alt="Separate-learning-counterfactual-inference in SCM-based causal inference">
-        <figcaption>Figure 4: Separate-learning-counterfactual-inference, a common pattern of SCM-based causal inference for recommender systems, learns causal effect with a separate structure or multi-task framework and performs counterfactual inference during testing.</figcaption>
-    </figure>
+    <img src="./pic/figure8.jpg" width="80%" alt="Separate-learning-counterfactual-inference in SCM-based causal inference">
+    <p><strong>Figure 4:</strong> Separate-learning-counterfactual-inference, a common pattern of SCM-based causal inference for recommender systems,<br>learns causal effect with a separate structure or multi-task framework and performs counterfactual inference during testing.</p>
 </div>
 
 
@@ -1046,7 +1043,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
 
 [Back](#bookmarks-)
 
-## General Counterfactuals-based Methods <span id="counterfactuals-"></span>
+## General Counterfactuals-based Methods
 
 <table>
   <thead>

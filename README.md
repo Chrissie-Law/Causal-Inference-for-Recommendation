@@ -1,5 +1,5 @@
 # Causal-Inference-for-Recommendation
-A comprehensive repository featuring research works on causal inference for recommender systems, including both academic papers and their corresponding code implementations :fire:. For any inquiries or contributions, please contact hsluo2000@buaa.edu.cn or hsluo2000@gmail.com. We welcome any interesting papers or code related to this field. If you find this repository useful to your research or work, we would greatly appreciate a star on the repository. :heart:
+A comprehensive repository featuring research works on causal inference for recommender systems, including both academic papers and their corresponding code implementations :fire:. For any inquiries or contributions, please contact hsluo2000@buaa.edu.cn or hsluo2000@gmail.com. We welcome any interesting papers or code related to this field. If you find this repository useful to your research or work, we would greatly appreciate a star on the repository :heart:. 
 
 
 [stars-img]: https://img.shields.io/github/stars/Chrissie-Law/Causal-Inference-for-Recommendation?color=yellow
@@ -26,7 +26,7 @@ If this repository or our survey paper is beneficial for your work, please cite:
   author = {Luo, Huishi and Zhuang, Fuzhen and Xie, Ruobing and Zhu, Hengshu and Wang, Deqing and An, Zhulin and Xu, Yongjun}
 }
 ```
-Due to space limitations in the official publication in *[The Innovation](https://doi.org/10.1016/j.xinn.2024.100590)*, some figures and complete bibliographic tables are included in the supplemental material, which may be inconvenient for reading. **We strongly recommend consulting our [arXiv version](https://arxiv.org/pdf/2303.11666) :sparkles: of the paper for reading**, where all figures and bibliographic tables are positioned near the relevant text in the main document, significantly enhancing readability.
+Due to space limitations in the official publication in [The Innovation](https://doi.org/10.1016/j.xinn.2024.100590), some figures and complete bibliographic tables are included in the supplemental material, which may be inconvenient for reading. **We strongly recommend consulting our [arXiv version](https://arxiv.org/pdf/2303.11666) :sparkles: of the paper for reading**, where all figures and bibliographic tables are positioned near the relevant text in the main document, significantly enhancing readability.
 
 ## Usage Guide
 
@@ -36,7 +36,7 @@ This repository offers a systematic review of research papers in the field of ca
 - **SCM-based (Structural Causal Model)**
 - **General Counterfactuals-based**
 
-The comprehensive taxonomy is illustrated in the figure below. In addition, we have summarized the specific application problems that these works address within recommendation systems, which are listed in the"Issue of concern" column of our tables. You can use the search function of this web page to quickly find works of interest.
+The comprehensive taxonomy is illustrated in the figure below. In addition, we have summarized the specific application problems that these works address within recommendation systems, which are listed in the "Issue of concern" column of our tables. Use the search function to quickly locate works relevant to your interests.
 
 <div align="center">
     <figure>
@@ -74,9 +74,9 @@ This repository is actively updated with the latest research papers up to early 
 ## Survey Papers
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
-| 2023  | **A Survey on Causal Inference for Recommendation (Ours)**   |  arXiv    |                   [Link](https://arxiv.org/pdf/2303.11666.pdf)                    | [Link](https://github.com/Chrissie-Law/Causal-Inference-for-Recommendation)     |
-| 2022  |  **Causal Inference in Recommender Systems: A Survey and Future Directions**  |  arXiv    | [Link](https://arxiv.org/pdf/2208.12397)  | -  |
-| 2022 |  **On the opportunity of causal learning in recommendation systems: Foundation, estimation, prediction and challenges** |  IJCAI    | [Link](https://arxiv.org/pdf/2201.06716)  | - |
+| 2024  | **A Survey on Causal Inference for Recommendation (Ours)**   |  The Innovation  | [The Innovation](https://doi.org/10.1016/j.xinn.2024.100590),<br>[:sparkles:**Recommended:arXiv**](https://arxiv.org/pdf/2303.11666) | [Link](https://github.com/Chrissie-Law/Causal-Inference-for-Recommendation)     |
+| 2022  |  **Causal Inference in Recommender Systems: A Survey and Future Directions**  |  TOIS    | [Link](https://dl.acm.org/doi/abs/10.1145/3639048)  | [Link](https://github.com/tsinghua-fib-lab/Causal-Recommender-Systems)  |
+| 2022 |  **On the opportunity of causal learning in recommendation systems: Foundation, estimation, prediction and challenges** |  IJCAI    | [Link](https://www.ijcai.org/proceedings/2022/0787.pdf)  | - |
 | 2023 | **Causal Inference for Recommendation: Foundations, Methods and Applications** |  arXiv    |  [Link](https://arxiv.org/pdf/2301.04016) | - |
 | 2023 | **Causal Inference in Recommender Systems: A Survey of Strategies for Bias Mitigation, Explanation, and Generalization** |  arXiv    | [Link](https://arxiv.org/pdf/2301.00910) | - |
 
@@ -724,7 +724,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
     </tr>
     <tr>
       <td>2021</td>
-      <td>CauSeR.</td>
+      <td>CauSeR</td>
       <td>CauSeR: Causal Session-based Recommendations for Handling Popularity Bias</td>
       <td>CIKM</td>
       <td>Popularity bias in session-based RS</td>
@@ -764,7 +764,7 @@ Our study on causal inference in recommender systems is distinguished by the fol
       <td>Intervention on the treatment</td>
       <td>MF</td>
       <td><a href="https://dl.acm.org/doi/abs/10.1145/3404835.3462875">Link</a></td>
-      <td><a href="https://github.com/zyang1580/PDA">Official TensorFlow</a>/ <a href="https://github.com/GHxdc/PDA">Reproduced PyTorch</a></td>
+      <td><a href="https://github.com/zyang1580/PDA">Official TensorFlow</a>, <a href="https://github.com/GHxdc/PDA">Reproduced PyTorch</a></td>
     </tr>
     <tr>
       <td>2021</td>
